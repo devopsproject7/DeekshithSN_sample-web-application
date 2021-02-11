@@ -23,7 +23,7 @@ pipeline{
 					   error "Pipeline aborted due to quality gate failure: ${qg.status}"
 				      }
                     		}
-		    	    sh "/opt/maven/mvn clean install"
+		    	    sh "/opt/maven/bin/mvn clean install"
 		  
                  	}
                	 }  
